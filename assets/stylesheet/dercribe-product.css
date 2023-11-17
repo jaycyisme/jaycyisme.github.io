@@ -25,6 +25,7 @@ section h2 {
 
 .detail h2 {
     font-weight: bold;
+    margin-top: 20px;
 }
 
 nav ul {
@@ -81,6 +82,11 @@ article h2 {
     margin: 60px;
     position: sticky;
     z-index: 1;
+    flex: 1;
+}
+
+.lefspecifi {
+    flex: 1;
 }
 
 .detail img {
@@ -92,6 +98,7 @@ article h2 {
 
 .imagetable {
     display: flex;
+    justify-content: center;
 }
 .priceall {
     margin-top: 50px;
@@ -189,8 +196,8 @@ h1 {
     justify-content: center;
 }
 .showroomimg:hover {
-    width: 900px;
-    height: 500px;
+    width: 700px;
+    height: 400px;
 }
 .expressimg2:hover {
     width: 550px;
